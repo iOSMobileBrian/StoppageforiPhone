@@ -13,7 +13,7 @@
 		7589E236215E2F9000A46663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7589E235215E2F9000A46663 /* Main.storyboard */; };
 		7589E238215E318A00A46663 /* Timeout warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 7589E237215E318A00A46663 /* Timeout warning.png */; };
 		7589E23C215E31E400A46663 /* Warning Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7589E23B215E31E400A46663 /* Warning Siren.mp3 */; };
-		7589E23E215E33DA00A46663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E23D215E33DA00A46663 /* ViewController.swift */; };
+		7589E23F215E444E00A46663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E23D215E33DA00A46663 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7589E23E215E33DA00A46663 /* ViewController.swift in Sources */,
+				7589E23F215E444E00A46663 /* ViewController.swift in Sources */,
 				7589E224215E2F2B00A46663 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
