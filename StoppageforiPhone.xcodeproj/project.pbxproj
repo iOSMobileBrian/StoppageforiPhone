@@ -13,7 +13,7 @@
 		7589E236215E2F9000A46663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7589E235215E2F9000A46663 /* Main.storyboard */; };
 		7589E238215E318A00A46663 /* Timeout warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 7589E237215E318A00A46663 /* Timeout warning.png */; };
 		7589E23C215E31E400A46663 /* Warning Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7589E23B215E31E400A46663 /* Warning Siren.mp3 */; };
-		7589E23F215E444E00A46663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E23D215E33DA00A46663 /* ViewController.swift */; };
+		7589E243215E483100A46663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E242215E483100A46663 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		7589E235215E2F9000A46663 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7589E237215E318A00A46663 /* Timeout warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timeout warning.png"; sourceTree = "<group>"; };
 		7589E23B215E31E400A46663 /* Warning Siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Warning Siren.mp3"; sourceTree = "<group>"; };
-		7589E23D215E33DA00A46663 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Mobile Projects/Ios Projects/StoppageforiPhone/ViewController.swift"; sourceTree = "<group>"; };
+		7589E242215E483100A46663 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		7589E222215E2F2B00A46663 /* StoppageforiPhone */ = {
 			isa = PBXGroup;
 			children = (
+				7589E242215E483100A46663 /* ViewController.swift */,
 				7589E237215E318A00A46663 /* Timeout warning.png */,
 				7589E23B215E31E400A46663 /* Warning Siren.mp3 */,
 				7589E223215E2F2B00A46663 /* AppDelegate.swift */,
-				7589E23D215E33DA00A46663 /* ViewController.swift */,
 				7589E235215E2F9000A46663 /* Main.storyboard */,
 				7589E22A215E2F2E00A46663 /* Assets.xcassets */,
 				7589E22C215E2F2E00A46663 /* LaunchScreen.storyboard */,
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7589E23F215E444E00A46663 /* ViewController.swift in Sources */,
+				7589E243215E483100A46663 /* ViewController.swift in Sources */,
 				7589E224215E2F2B00A46663 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
