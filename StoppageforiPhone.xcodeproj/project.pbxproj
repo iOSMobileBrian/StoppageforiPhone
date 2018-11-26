@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		7589E224215E2F2B00A46663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E223215E2F2B00A46663 /* AppDelegate.swift */; };
 		7589E22B215E2F2E00A46663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7589E22A215E2F2E00A46663 /* Assets.xcassets */; };
-		7589E22E215E2F2E00A46663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7589E22C215E2F2E00A46663 /* LaunchScreen.storyboard */; };
 		7589E236215E2F9000A46663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7589E235215E2F9000A46663 /* Main.storyboard */; };
 		7589E238215E318A00A46663 /* Timeout warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 7589E237215E318A00A46663 /* Timeout warning.png */; };
 		7589E23C215E31E400A46663 /* Warning Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7589E23B215E31E400A46663 /* Warning Siren.mp3 */; };
 		7589E243215E483100A46663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589E242215E483100A46663 /* ViewController.swift */; };
+		7591049621AB7469009A1B6C /* Air Horn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7591049521AB7468009A1B6C /* Air Horn.mp3 */; };
+		7591049821AB7B02009A1B6C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7591049721AB7B02009A1B6C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7589E220215E2F2B00A46663 /* StoppageforiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoppageforiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7589E223215E2F2B00A46663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7589E22A215E2F2E00A46663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7589E22D215E2F2E00A46663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7589E22F215E2F2E00A46663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7589E235215E2F9000A46663 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7589E237215E318A00A46663 /* Timeout warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timeout warning.png"; sourceTree = "<group>"; };
 		7589E23B215E31E400A46663 /* Warning Siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Warning Siren.mp3"; sourceTree = "<group>"; };
 		7589E242215E483100A46663 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7591049521AB7468009A1B6C /* Air Horn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Horn.mp3"; sourceTree = "<group>"; };
+		7591049721AB7B02009A1B6C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 				7589E237215E318A00A46663 /* Timeout warning.png */,
 				7589E23B215E31E400A46663 /* Warning Siren.mp3 */,
 				7589E223215E2F2B00A46663 /* AppDelegate.swift */,
+				7591049521AB7468009A1B6C /* Air Horn.mp3 */,
 				7589E235215E2F9000A46663 /* Main.storyboard */,
 				7589E22A215E2F2E00A46663 /* Assets.xcassets */,
-				7589E22C215E2F2E00A46663 /* LaunchScreen.storyboard */,
 				7589E22F215E2F2E00A46663 /* Info.plist */,
+				7591049721AB7B02009A1B6C /* Launch Screen.storyboard */,
 			);
 			path = StoppageforiPhone;
 			sourceTree = "<group>";
@@ -129,10 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7589E23C215E31E400A46663 /* Warning Siren.mp3 in Resources */,
-				7589E22E215E2F2E00A46663 /* LaunchScreen.storyboard in Resources */,
 				7589E22B215E2F2E00A46663 /* Assets.xcassets in Resources */,
 				7589E236215E2F9000A46663 /* Main.storyboard in Resources */,
 				7589E238215E318A00A46663 /* Timeout warning.png in Resources */,
+				7591049621AB7469009A1B6C /* Air Horn.mp3 in Resources */,
+				7591049821AB7B02009A1B6C /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,17 +153,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7589E22C215E2F2E00A46663 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7589E22D215E2F2E00A46663 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7589E230215E2F2E00A46663 /* Debug */ = {
@@ -285,12 +278,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.StoppageforiPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.Stoppage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -304,12 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.StoppageforiPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.Stoppage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
